@@ -134,8 +134,9 @@
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
       firefox
-      kate
+      #kate
       discord
+      gnome.gnome-tweaks
       easyeffects
       git
       prismlauncher
